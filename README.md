@@ -1,25 +1,23 @@
-# GitHub Self-Hosted Runners Disk Space
+# GitHub Hosted Runners Disk Space
 
-[![Collect Disk Space Data](https://github.com/fbnrst/Github-Self-Hosted-Runners-Disk-Space/actions/workflows/collect-disk-space.yml/badge.svg)](https://github.com/fbnrst/Github-Self-Hosted-Runners-Disk-Space/actions/workflows/collect-disk-space.yml)
-[![Deploy GitHub Pages](https://github.com/fbnrst/Github-Self-Hosted-Runners-Disk-Space/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/fbnrst/Github-Self-Hosted-Runners-Disk-Space/actions/workflows/deploy-pages.yml)
-[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/fbnrst/Github-Self-Hosted-Runners-Disk-Space/main.svg)](https://results.pre-commit.ci/latest/github/fbnrst/Github-Self-Hosted-Runners-Disk-Space/main)
-[![Last Data Update](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffbnrst%2FGithub-Self-Hosted-Runners-Disk-Space%2Fdata%2Fdata%2Fx86_64-metadata.json&query=%24.timestamp&label=Last%20Data%20Update&color=blue)](https://fbnrst.github.io/Github-Self-Hosted-Runners-Disk-Space/)
+[![Collect Disk Space Data](https://github.com/fbnrst/Github-Hosted-Runners-Disk-Space/actions/workflows/collect-disk-space.yml/badge.svg)](https://github.com/fbnrst/Github-Hosted-Runners-Disk-Space/actions/workflows/collect-disk-space.yml)
+[![Deploy GitHub Pages](https://github.com/fbnrst/Github-Hosted-Runners-Disk-Space/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/fbnrst/Github-Hosted-Runners-Disk-Space/actions/workflows/deploy-pages.yml)
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/fbnrst/Github-Hosted-Runners-Disk-Space/main.svg)](https://results.pre-commit.ci/latest/github/fbnrst/Github-Hosted-Runners-Disk-Space/main)
+[![Last Data Update](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffbnrst%2FGithub-Hosted-Runners-Disk-Space%2Fdata%2Fdata%2Fx86_64-metadata.json&query=%24.timestamp&label=Last%20Data%20Update&color=blue)](https://fbnrst.github.io/Github-Hosted-Runners-Disk-Space/)
 
 **Automated disk space analysis for GitHub Actions runners** across multiple architectures (x86_64 and aarch64).
 
 ## What is this for?
 
 This project helps you:
-- 📊 **Understand disk usage** on GitHub Actions self-hosted runners
+- 📊 **Understand disk usage** on GitHub Actions hosted runners
 - 🔍 **Identify large files and directories** consuming disk space
 - 🗓️ **Track changes over time** with automated weekly reports
 - 🏗️ **Optimize CI/CD workflows** by knowing what's taking up space
 
-Perfect for teams managing self-hosted GitHub Actions runners who need visibility into disk space usage.
-
 ## View Live Reports
 
-**[👉 View Interactive Disk Space Reports](https://fbnrst.github.io/Github-Self-Hosted-Runners-Disk-Space/)**
+**[👉 View Interactive Disk Space Reports](https://fbnrst.github.io/Github-Hosted-Runners-Disk-Space/)**
 
 The web interface provides:
 - Interactive tree view to browse directories
@@ -29,7 +27,7 @@ The web interface provides:
 ## How to Use
 
 ### For Viewing Data
-Simply visit the [GitHub Pages site](https://fbnrst.github.io/Github-Self-Hosted-Runners-Disk-Space/) to explore the latest disk space reports.
+Simply visit the [GitHub Pages site](https://fbnrst.github.io/Github-Hosted-Runners-Disk-Space/) to explore the latest disk space reports.
 
 ### For Running Your Own Analysis
 Fork this repository and enable GitHub Actions. The workflows will automatically:
