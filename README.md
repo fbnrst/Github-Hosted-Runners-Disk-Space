@@ -10,14 +10,14 @@
 ## What is this for?
 
 This project helps you:
-- 📊 **Understand disk usage** on GitHub Actions hosted runners
-- 🔍 **Identify large files and directories** consuming disk space
-- 🗓️ **Track changes over time** with automated weekly reports
-- 🏗️ **Optimize CI/CD workflows** by knowing what's taking up space
+- **Understand disk usage** on GitHub Actions hosted runners
+- **Identify large files and directories** consuming disk space
+- **Track changes over time** with automated weekly reports
+- **Optimize CI/CD workflows** by knowing what's taking up space
 
 ## View Live Reports
 
-**[👉 View Interactive Disk Space Reports](https://fbnrst.github.io/Github-Hosted-Runners-Disk-Space/)**
+**[View Interactive Disk Space Reports](https://fbnrst.github.io/Github-Hosted-Runners-Disk-Space/)**
 
 The web interface provides:
 - Interactive tree view to browse directories
